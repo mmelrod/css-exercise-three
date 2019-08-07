@@ -3,12 +3,14 @@
 }
 
 body {
-  background-color: #333;
+  /*background-color: #6C430E; */
+  background-color: #00045B;
   font-family: sans-serif;
   font-size: 10px;
 }
 
 .container {
+  background-color: #005B15;
   margin: 0 auto;
   width: 420px;
 }
@@ -22,17 +24,18 @@ nav {
 
 .arrow {
   color: #ffffff;
+  text-align: right;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   color: #ffffff;
 }
 
 h3 {
-  font-size: 1.5em;
-  color: #ffffff;
+    font-size: 1.5em;
+    color: #ffffff;
 }
 
 .restaurant-list {
@@ -41,7 +44,9 @@ h3 {
 
 .content{
   width: 70%;
-  margin: 1.5%;
+  margin: 1.8%;
 }
 
-.location:hover { background-color: #6E6EF6}
+.location:hover {
+  background-color: #008E21;
+}
